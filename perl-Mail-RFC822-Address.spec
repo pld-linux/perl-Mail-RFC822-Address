@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Mail
-%define	pnam	RFC822-Address
+%define		pdir	Mail
+%define		pnam	RFC822-Address
 Summary:	Mail::RFC822::Address - validating email addresses according to RFC822
 Summary(pl):	Mail::RFC822::Address - sprawdzanie poprawno¶ci adresów e-mail wg RFC822
 Name:		perl-Mail-RFC822-Address
