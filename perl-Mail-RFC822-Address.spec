@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	RFC822-Address
 Summary:	Mail::RFC822::Address - validating email addresses according to RFC822
-Summary(pl):	Mail::RFC822::Address - sprawdzanie poprawno∂ci adresÛw e-mail wg RFC822
+Summary(pl.UTF-8):   Mail::RFC822::Address - sprawdzanie poprawno≈õci adres√≥w e-mail wg RFC822
 Name:		perl-Mail-RFC822-Address
 Version:	0.3
 Release:	1
@@ -33,20 +33,20 @@ uses regular expressions rather than the Parse::RecDescent parser.
 This means that startup time is greatly reduced making it suitable for
 use in transient scripts such as CGI scripts.
 
-%description -l pl
-Mail::RFC822::Address sprawdza poprawno∂Ê adresÛw e-mail wg gramatyki
-opisanej w RFC 822 przy uøyciu wyraøeÒ regularnych. SposÛb sprawdzenia
-poprawno∂ci adresu e-mail podanego przez uøytkownika jest w FAQ
+%description -l pl.UTF-8
+Mail::RFC822::Address sprawdza poprawno≈õƒá adres√≥w e-mail wg gramatyki
+opisanej w RFC 822 przy u≈ºyciu wyra≈ºe≈Ñ regularnych. Spos√≥b sprawdzenia
+poprawno≈õci adresu e-mail podanego przez u≈ºytkownika jest w FAQ
 (perlfaq9): jedynym sposobem sprawdzenia, czy podany adres jest
-prawdziwy jest wys≥anie na niego wiadomo∂ci i sprawdzenie, czy
-uøytkownik j± otrzyma. Jedyny uøyteczny test ktÛry moøna wykonaÊ na
+prawdziwy jest wys≈Çanie na niego wiadomo≈õci i sprawdzenie, czy
+u≈ºytkownik jƒÖ otrzyma. Jedyny u≈ºyteczny test kt√≥ry mo≈ºna wykonaƒá na
 adresie to sprawdzenie, czy adres jest poprawny syntaktycznie - i to
-w≥a∂nie robi modu≥.
+w≈Ça≈õnie robi modu≈Ç.
 
-Ten modu≥ jest funkcjonalnie rÛwnowaøny RFC::RFC822::Address, ale
-uøywa wyraøeÒ regularnych zamiast analizatora Parse::RecDescent.
-Oznacza to znaczne zmniejszenie czasu ≥adowania, co czyni modu≥
-przydatnym do uøywania w skryptach np. CGI.
+Ten modu≈Ç jest funkcjonalnie r√≥wnowa≈ºny RFC::RFC822::Address, ale
+u≈ºywa wyra≈ºe≈Ñ regularnych zamiast analizatora Parse::RecDescent.
+Oznacza to znaczne zmniejszenie czasu ≈Çadowania, co czyni modu≈Ç
+przydatnym do u≈ºywania w skryptach np. CGI.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
