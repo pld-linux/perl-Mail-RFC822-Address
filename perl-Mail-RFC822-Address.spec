@@ -6,7 +6,7 @@
 %define		pdir	Mail
 %define		pnam	RFC822-Address
 Summary:	Mail::RFC822::Address - validating email addresses according to RFC822
-Summary(pl.UTF-8):   Mail::RFC822::Address - sprawdzanie poprawności adresów e-mail wg RFC822
+Summary(pl.UTF-8):	Mail::RFC822::Address - sprawdzanie poprawności adresów e-mail wg RFC822
 Name:		perl-Mail-RFC822-Address
 Version:	0.3
 Release:	1
