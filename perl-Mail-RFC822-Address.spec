@@ -9,7 +9,7 @@ Summary:	Mail::RFC822::Address - validating email addresses according to RFC822
 Summary(pl.UTF-8):	Mail::RFC822::Address - sprawdzanie poprawności adresów e-mail wg RFC822
 Name:		perl-Mail-RFC822-Address
 Version:	0.3
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
