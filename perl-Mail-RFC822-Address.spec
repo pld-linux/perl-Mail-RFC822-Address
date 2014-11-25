@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Mail
 %define		pnam	RFC822-Address
+%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::RFC822::Address - validating email addresses according to RFC822
 Summary(pl.UTF-8):	Mail::RFC822::Address - sprawdzanie poprawności adresów e-mail wg RFC822
 Name:		perl-Mail-RFC822-Address
@@ -14,6 +14,7 @@ License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0bd88b2ffedd95a4a920053fd6d0b709
+URL:		http://search.cpan.org/dist/Mail-RFC822-Address/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
