@@ -4,7 +4,6 @@
 
 %define		pdir	Mail
 %define		pnam	RFC822-Address
-%include	/usr/lib/rpm/macros.perl
 Summary:	Mail::RFC822::Address - validating email addresses according to RFC822
 Summary(pl.UTF-8):	Mail::RFC822::Address - sprawdzanie poprawności adresów e-mail wg RFC822
 Name:		perl-Mail-RFC822-Address
